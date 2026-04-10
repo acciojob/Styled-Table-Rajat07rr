@@ -1,15 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- add table here -->
+    <title>Cricket Stats</title>
 
-        
+    <style>
+        body {
+            background-color: #f4f6f8;
+        }
+
+        table {
+            width: 70%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        thead {
+            background-color: #007bff;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:hover {
+            background-color: #e6f2ff;
+        }
+
+        th {
+            text-transform: uppercase;
+        }
+
+        caption {
+            font-size: 22px;
+            margin: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <caption>Cricket Player Statistics</caption>
+
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Matches</th>
+                <th>Runs</th>
+                <th>Average</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Virat Kohli</td>
+                <td>275</td>
+                <td>12898</td>
+                <td>57.32</td>
+            </tr>
+            <tr>
+                <td>Rohit Sharma</td>
+                <td>243</td>
+                <td>9825</td>
+                <td>48.63</td>
+            </tr>
+            <tr>
+                <td>Yuvraj Singh</td>
+                <td>72</td>
+                <td>2820</td>
+                <td>46.23</td>
+            </tr>
+        </tbody>
+
+    </table>
+
 </body>
 </html>
